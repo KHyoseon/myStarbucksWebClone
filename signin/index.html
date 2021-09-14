@@ -27,6 +27,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/signin.css">
 
   <script defer src="../js/common.js"></script>
 </head>
@@ -363,7 +364,25 @@
 
   <!-- SIGNIN -->
   <section class="signin">
-
+  	<h1>로그인</h1>
+  	<div class="signin__card">
+  		<h2>
+        <strong>Welcome!</strong> 웰컴임</h2>
+  		<!-- action="" : 입력양식이 어떤 형태로 저장되는지. 현재는 생략 -->
+  		<form>
+  			<input type="text" placeholder="ID">
+  			<input type="password" placeholder="PW">
+  			<input type="submit" value="로그인">  <!--로그인 버튼-->
+  			<p>
+  				* 어쩌구저쩌구
+  			</p>
+  		</form>
+  		<div class="actions">
+  			<a href="javascript:void(0)">회원가입</a>
+  			<a href="javascript:void(0)">아이디 찾기</a>
+  			<a href="javascript:void(0)">비번 찾기</a>
+  		</div>
+  	</div>
   </section>
 
 
